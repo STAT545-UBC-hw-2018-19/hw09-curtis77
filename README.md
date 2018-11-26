@@ -16,6 +16,8 @@ Here is a link to the R file that I added: [Link](https://github.com/STAT545-UBC
 
 Here is a link to the R markdown file I added: [Link](https://github.com/STAT545-UBC-students/hw09-curtis77/blob/master/letterCount.rmd)
 
+Here is a link to the output as a markdown file: [Link](https://github.com/STAT545-UBC-students/hw09-curtis77/blob/master/letterCount.md)
+
 Here is a link to the makefile: [Link](https://github.com/STAT545-UBC-students/hw09-curtis77/blob/master/Makefile)
 
 Here is a link to the plot I produced in my analysis: [Link](https://github.com/STAT545-UBC-students/hw09-curtis77/blob/master/letterCount.png)
