@@ -16,6 +16,8 @@ I consulted the following source for the unname function, linked here: [Link](ht
 
 I consulted the following source for the %in% function, linked here: [Link](https://stat.ethz.ch/R-manual/R-devel/library/base/html/match.html)
 
+I consulted the following source for the substr function, linked here: [Link](https://stat.ethz.ch/R-manual/R-devel/library/base/html/substr.html)
+
 Links:
 
 Here is a link to the R file that I added: [Link](https://github.com/STAT545-UBC-students/hw09-curtis77/blob/master/letterCount.r)
