@@ -13,7 +13,7 @@ suppressPackageStartupMessages(library(tidyverse))
 library(tidyverse)
 ```
 
-This code takes in the a dataset containing the frequencies of each lower-case letter as a starting character in the words contained in the word.txt file. I then plot these frequencies using a scatterplot. Then I save the plot to a file, and render it in the markdown.
+This code takes in a dataset containing the frequencies of each lower-case letter as a starting character in the words contained in the word.txt file. I then plot these frequencies using a scatterplot. Then I save the plot to a file, and render it in the markdown.
 
 ``` r
 data <- read.csv("letterCount.csv")

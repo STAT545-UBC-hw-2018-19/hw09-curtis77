@@ -31,7 +31,7 @@ body {
 <span class="kw">suppressPackageStartupMessages</span>(<span class="kw">library</span>(tidyverse))</code></pre></div>
 <pre><code>## Note: the specification for S3 class &quot;difftime&quot; in package 'lubridate' seems equivalent to one from package 'hms': not turning on duplicate class definitions for this class.</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(tidyverse)</code></pre></div>
-<p>This code takes in the a dataset containing the frequencies of each lower-case letter as a starting character in the words contained in the word.txt file. I then plot these frequencies using a scatterplot. Then I save the plot to a file, and render it in the markdown.</p>
+<p>This code takes in a dataset containing the frequencies of each lower-case letter as a starting character in the words contained in the word.txt file. I then plot these frequencies using a scatterplot. Then I save the plot to a file, and render it in the markdown.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">data &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;letterCount.csv&quot;</span>)
 plot &lt;-<span class="st"> </span><span class="kw">ggplot</span>(data, <span class="kw">aes</span>(Count, Letters, <span class="dt">colour =</span> Count)) <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_point</span>() <span class="op">+</span><span class="st"> </span>
